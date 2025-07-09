@@ -1,0 +1,47 @@
+# ✅ Python bytecode and virtualenv
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+venv*/
+env*/
+
+# ✅ Editor/IDE files
+*.swp
+*.swo
+*.bak
+*.tmp
+*.log
+.DS_Store
+.vscode/
+.idea/
+
+# ✅ Encrypted email data (runtime generated)
+emails/inbox.json
+emails/sent.json
+
+# ✅ SSH or quantum certs - keep only structure
+certs/private_keys/
+certs/*.bin
+certs/user_cert_map.json
+
+# ✅ Logs or test files
+*.log
+*.tmp
+*.test
+
+# ✅ Optional - Output/Debug files
+*.out
+*.debug
+*.trace
+*.dump
+
+# ✅ SMTP debug/test files
+smtp_logs/
+*.eml
+
+# ✅ Ignore saved encrypted email test files
+encrypted_email_*.json
+qqq.json
